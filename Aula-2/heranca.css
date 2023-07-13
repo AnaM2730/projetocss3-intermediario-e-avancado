@@ -1,0 +1,44 @@
+/* HERANÇA */
+/* body{
+    color: red;
+    border: 1px solid blue;
+} */
+/* APLICA FORMATAÇÕES E ESSAS FORMATAÇÕES TAMBEM SÃO APLICADAS AOS ELEMENTOS
+QUE ESTÃO DENTRO DO ELEMENTO SELECIONADO */
+
+
+
+
+/* ESPECIALIDADE */
+
+/* #pagina P{
+    color: blue !important;
+}
+
+#pagina p{
+    color: red;
+} */
+
+/* Quando tem dois seletores selecionado, o último sempre será aplicado,
+exceto se usar "!important" */
+
+
+/* Se um seletor for mais específico que o outro, a regra mais específica será
+aplicada (terá precedência sobre regras mais gerais) */
+
+*{
+    color: red;
+}
+
+h2{ /* aplicado em 3º */
+    color: blue;
+}
+
+h2.verde{ /* aplicado em 2º */
+    color: green;
+}
+
+h2#amarelo{ /* sempre será aplicado 1º */
+    color: yellow;
+}
+

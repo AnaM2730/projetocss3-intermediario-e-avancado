@@ -1,0 +1,51 @@
+/* SELETOR UNIVERSAL
+*{
+    border: 1px solid red;
+}
+/* SELETOR DE TEXTO 
+
+h1{
+    color: green;
+}
+*/
+
+/* SELETOR DE CLASSE */
+/* .verde{
+    color: green;
+} */
+
+/* p.verde{
+    color: green;
+} */
+
+/* #cabecalho{
+    border: 1px solid red;
+}
+ */
+
+/* SELETOR FILHO li> a {} seleciona quaisquer elementos que são filhos de um elementoz
+Permite muitas possibilidades na hora de selecionar elementos HTML, pois ele
+permite selecionar elementos que estao diretamente dentro de um outro elemento 
+OUTRO EXEMPLO
+div> span*/
+/* li> a{
+color: red;
+text-decoration: none;
+} */
+
+
+/* SELETOR DE DESCENDENTE */
+div a{
+    color: green;
+}
+
+/* SELETOR DE IRMÃO ADJACENTE */
+h1+p{
+color: red;
+}
+
+
+/* SELETOR DE IRMÃO GERAL */
+h1~p{
+color: pink;
+}
